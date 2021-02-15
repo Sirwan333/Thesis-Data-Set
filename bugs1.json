@@ -1,0 +1,542 @@
+[
+  {
+    "id": "57902",
+    "status": "RESO",
+    "summary": "bug found while testing",
+    "importance": "critical",
+    "dependsON": "",
+    "reported": "2015-05-07 19:06 ",
+    "modified": "2015-05-07 19:49 "
+  },
+  {
+    "id": "58595",
+    "status": "RESO",
+    "summary": "Ive noticed my phone's settings have been changed and I cant access my data or download any apps unless Im connected to WiFi.",
+    "importance": "blocker",
+    "dependsON": "",
+    "reported": "2015-11-07 09:22 ",
+    "modified": "2015-11-09 09:16 "
+  },
+  {
+    "id": "47934",
+    "status": "RESO",
+    "summary": "mod_websh test suite sometimes crashes with Apache >=2 and Tcl>=8.5",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2009-10-02 01:16 ",
+    "modified": "2016-08-30 11:40 "
+  },
+  {
+    "id": "51659",
+    "status": "RESO",
+    "summary": "segfault when calling interpcfg with mod_websh",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2011-08-14 23:19 ",
+    "modified": "2011-08-15 07:53 "
+  },
+  {
+    "id": "57664",
+    "status": "RESO",
+    "summary": "open directory listingand information disclosure",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2015-03-05 07:15 ",
+    "modified": "2015-03-11 14:26 "
+  },
+  {
+    "id": "44842",
+    "status": "RESO",
+    "summary": "Self-tests fail, when using Tcl-8.5.2",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2008-04-20 21:09 ",
+    "modified": "2009-10-02 05:56 "
+  },
+  {
+    "id": "43422",
+    "status": "RESO",
+    "summary": "fioricet",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2007-09-18 08:17 ",
+    "modified": "2007-09-21 01:21 "
+  },
+  {
+    "id": "55010",
+    "status": "RESO",
+    "summary": "3.2.4 check",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2013-05-23 11:55 ",
+    "modified": "2013-05-24 08:27 "
+  },
+  {
+    "id": "58318",
+    "status": "RESO",
+    "summary": "souldeal.in",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2015-09-03 06:21 ",
+    "modified": "2015-09-03 06:41 "
+  },
+  {
+    "id": "39622",
+    "status": "RESO",
+    "summary": "*.html files are notcorrectly interpreted on WIN32 platform using mod_websh.so",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2006-05-21 11:55 ",
+    "modified": "2006-05-22 06:24 "
+  },
+  {
+    "id": "55491",
+    "status": "RESO",
+    "summary": "browser,s60v5",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2013-08-27 21:05 ",
+    "modified": "2013-08-28 09:14 "
+  },
+  {
+    "id": "59875",
+    "status": "RESO",
+    "summary": "Summary of product",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2016-07-17 15:02 ",
+    "modified": "2016-08-30 11:41 "
+  },
+  {
+    "id": "56755",
+    "status": "RESO",
+    "summary": "history mail",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2014-07-21 19:05 ",
+    "modified": "2019-08-09 02:51 "
+  },
+  {
+    "id": "54329",
+    "status": "RESO",
+    "summary": "acer",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2012-12-19 12:34 ",
+    "modified": "2012-12-19 12:39 "
+  },
+  {
+    "id": "60215",
+    "status": "RESO",
+    "summary": "Think im being hacked",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2016-10-06 23:13 ",
+    "modified": "2019-06-02 20:48 "
+  },
+  {
+    "id": "43212",
+    "status": "RESO",
+    "summary": "Multipart form parameters parsing fails on multiline headers",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2007-08-24 17:30 ",
+    "modified": "2007-08-28 03:58 "
+  },
+  {
+    "id": "54995",
+    "status": "RESO",
+    "summary": "demo",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2013-05-21 07:09 ",
+    "modified": "2013-05-21 20:55 "
+  },
+  {
+    "id": "58034",
+    "status": "RESO",
+    "summary": "AE2861B20B7D6E22D8CE50DB492A82EB98D6E562DD1EB5B17EBCD7E2C0395CAF4A26D9C1A9CDA93E38C39B742B748F453E1640ADBA58911BD6956573105A4E3FACC5955F028E22E30013B3A989F7FEB4&dsid=52204",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2015-06-14 21:17 ",
+    "modified": "2015-06-14 21:19 "
+  },
+  {
+    "id": "36942",
+    "status": "RESO",
+    "summary": "local",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2005-10-05 23:27 ",
+    "modified": "2005-11-16 05:48 "
+  },
+  {
+    "id": "55136",
+    "status": "RESO",
+    "summary": "ghjgf",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2013-06-25 05:57 ",
+    "modified": "2013-06-25 13:23 "
+  },
+  {
+    "id": "49300",
+    "status": "RESO",
+    "summary": "test1",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2010-05-16 13:03 ",
+    "modified": "2010-05-17 07:05 "
+  },
+  {
+    "id": "55601",
+    "status": "RESO",
+    "summary": "this is cool",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2013-09-27 09:07 ",
+    "modified": "2013-09-27 09:47 "
+  },
+  {
+    "id": "52110",
+    "status": "RESO",
+    "summary": "tertere",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2011-10-28 23:59 ",
+    "modified": "2011-10-30 21:32 "
+  },
+  {
+    "id": "60001",
+    "status": "RESO",
+    "summary": "qs",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2016-08-14 21:23 ",
+    "modified": "2016-08-15 04:16 "
+  },
+  {
+    "id": "41576",
+    "status": "RESO",
+    "summary": "Shared instead of static linking of WebSH's object files into mod_websh and websh executable",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2007-02-08 18:29 ",
+    "modified": "2009-05-22 03:17 "
+  },
+  {
+    "id": "57223",
+    "status": "RESO",
+    "summary": "www.dewoa.weebly.com",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2014-11-16 16:07 ",
+    "modified": "2014-11-16 17:41 "
+  },
+  {
+    "id": "41523",
+    "status": "RESO",
+    "summary": "Fix compiler warnings (-Wall -Werror)",
+    "importance": "minor",
+    "dependsON": "",
+    "reported": "2007-02-01 21:19 ",
+    "modified": "2010-02-25 17:21 "
+  },
+  {
+    "id": "54531",
+    "status": "RESO",
+    "summary": "Chase compilation warnings",
+    "importance": "minor",
+    "dependsON": "",
+    "reported": "2013-02-06 13:36 ",
+    "modified": "2013-02-07 17:44 "
+  },
+  {
+    "id": "41524",
+    "status": "RESO",
+    "summary": "Decouple the websh TCL-package and the mod_websh",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2007-02-01 21:25 ",
+    "modified": "2007-03-19 03:51 "
+  },
+  {
+    "id": "21377",
+    "status": "RESO",
+    "summary": "configure dies trying to run /bin/bash ./config.sub",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2003-07-07 18:08 ",
+    "modified": "2005-11-16 05:34 "
+  },
+  {
+    "id": "14682",
+    "status": "RESO",
+    "summary": "web::putx and web::putxfile file have problems with non-ascii characters",
+    "importance": "major",
+    "dependsON": "",
+    "reported": "2002-11-19 16:14 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4717",
+    "status": "RESO",
+    "summary": "web::response -select default should set the default channel output",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 14:59 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "5043",
+    "status": "CLOS",
+    "summary": "env variables not present in mod_websh (specifically, HTTPS)",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-23 02:33 ",
+    "modified": "2012-09-14 12:51 "
+  },
+  {
+    "id": "4728",
+    "status": "RESO",
+    "summary": "web::filecontext: -path is mandatory",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:09 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4720",
+    "status": "RESO",
+    "summary": "wrong default scheme in cmdurl (?)",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:05 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "6949",
+    "status": "RESO",
+    "summary": "Makfile dependencies",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2002-03-07 09:28 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4730",
+    "status": "RESO",
+    "summary": "Make examples/doc on websh.com 3.00 ready",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:21 ",
+    "modified": "2006-03-06 07:03 "
+  },
+  {
+    "id": "4723",
+    "status": "RESO",
+    "summary": "Change semantic of web::putx",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:07 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "7766",
+    "status": "RESO",
+    "summary": "web::send/web::recv are not implemented for the Windows Platform.",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2002-04-05 14:35 ",
+    "modified": "2006-03-06 06:52 "
+  },
+  {
+    "id": "4714",
+    "status": "RESO",
+    "summary": "log filters should have an 'all but X level' option",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 14:53 ",
+    "modified": "2007-08-28 04:00 "
+  },
+  {
+    "id": "4740",
+    "status": "RESO",
+    "summary": "fix and clean up build system",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-08 05:43 ",
+    "modified": "2005-11-16 05:42 "
+  },
+  {
+    "id": "4725",
+    "status": "RESO",
+    "summary": "web::cmdurl -notimestamp: make configurable in web:::config or web::cmdurlcfg",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:07 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4863",
+    "status": "RESO",
+    "summary": "WebshConfig directive must be present, but this isn't checked",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-14 05:50 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4727",
+    "status": "RESO",
+    "summary": "web::context invalidation",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:08 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "19678",
+    "status": "RESO",
+    "summary": "websh doesn't remove temp files anymore (created with web::tempfile)",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2003-05-05 18:02 ",
+    "modified": "2006-03-06 06:44 "
+  },
+  {
+    "id": "4719",
+    "status": "RESO",
+    "summary": "Error in web::dispatch -postdata not propagated",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:00 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "5589",
+    "status": "RESO",
+    "summary": "web::putx 'channel' {= } doesn't default to correct channel",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-12-26 09:58 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4729",
+    "status": "RESO",
+    "summary": "Catch in web::dispatch disrupts error message",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:11 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4722",
+    "status": "RESO",
+    "summary": "web::response set headers in image example on websh.com",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:06 ",
+    "modified": "2006-03-09 08:01 "
+  },
+  {
+    "id": "6950",
+    "status": "RESO",
+    "summary": "install rule does not work",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2002-03-07 09:32 ",
+    "modified": "2005-11-16 05:43 "
+  },
+  {
+    "id": "4662",
+    "status": "RESO",
+    "summary": "problem with i18n uricode-2.6",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-05 16:51 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4737",
+    "status": "RESO",
+    "summary": "web::log shouldn't subst by default",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-08 04:15 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4724",
+    "status": "RESO",
+    "summary": "web::putxfile: eval all file even in case of an error in one block",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:07 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "14503",
+    "status": "RESO",
+    "summary": "[web::cmdurl -urlformat scheme foo] dumps core in websh3.5.0",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2002-11-13 13:46 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4715",
+    "status": "RESO",
+    "summary": "Make 3.0.0 RPM's",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 14:54 ",
+    "modified": "2006-03-06 07:04 "
+  },
+  {
+    "id": "4805",
+    "status": "RESO",
+    "summary": "web::request -reset shouldn't reset all paramaters",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-12 02:45 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4726",
+    "status": "RESO",
+    "summary": "Keep list of web::contexts, and delete at end of request",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2001-11-07 15:08 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "14514",
+    "status": "RESO",
+    "summary": "documentation: [web::cmdurlcfg -reset] is undocumented",
+    "importance": "minor",
+    "dependsON": "",
+    "reported": "2002-11-13 17:11 ",
+    "modified": "2006-03-10 09:52 "
+  },
+  {
+    "id": "4499",
+    "status": "RESO",
+    "summary": "remove dependency on 'initcode' to generate script.h",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2001-10-29 13:57 ",
+    "modified": "2004-11-16 19:05 "
+  },
+  {
+    "id": "4716",
+    "status": "RESO",
+    "summary": "create and distribute NT build",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2001-11-07 14:55 ",
+    "modified": "2006-03-06 07:00 "
+  }
+]

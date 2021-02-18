@@ -6,7 +6,15 @@
     "importance": "critical",
     "dependsON": "",
     "reported": "2020-07-30 06:17 ",
-    "modified": "2020-07-30 08:26 "
+    "modified": "2020-07-30 08:26 ",
+    "age": {
+      "years": 0,
+      "months": 6,
+      "days": 22,
+      "hours": 16,
+      "minutes": 19
+    },
+    "relatedBugs": []
   },
   {
     "id": "64311",
@@ -15,115 +23,15 @@
     "importance": "major",
     "dependsON": "",
     "reported": "2020-04-06 09:48 ",
-    "modified": "2020-04-08 19:31 "
-  },
-  {
-    "id": "64201",
-    "status": "CLOS",
-    "summary": "Tomcat 10 Doesn't receive debug inside Netbeans 11.3",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-03-05 15:01 ",
-    "modified": "2020-03-05 15:18 "
-  },
-  {
-    "id": "64548",
-    "status": "RESO",
-    "summary": "generate JPMS metadata",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-23 13:31 ",
-    "modified": "2020-07-11 02:44 "
-  },
-  {
-    "id": "64514",
-    "status": "RESO",
-    "summary": "classes missing from bootstrap.jar",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-11 03:18 ",
-    "modified": "2020-06-15 18:40 "
-  },
-  {
-    "id": "64521",
-    "status": "RESO",
-    "summary": "avoid moving i18n translations into classes dir since they are packaged into separate jars",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-13 22:46 ",
-    "modified": "2020-06-15 18:53 "
-  },
-  {
-    "id": "65037",
-    "status": "RESO",
-    "summary": "Supports deploy Java EE web application to tomcat 10+",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-12-29 01:26 ",
-    "modified": "2020-12-29 02:39 "
-  },
-  {
-    "id": "64774",
-    "status": "RESO",
-    "summary": "Configuration Reference pages have a wrong version number in their title",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-09-27 18:42 ",
-    "modified": "2020-09-29 21:23 "
-  },
-  {
-    "id": "64532",
-    "status": "RESO",
-    "summary": "update to bnd 5.1.1",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-17 14:14 ",
-    "modified": "2020-06-22 11:36 "
-  },
-  {
-    "id": "64488",
-    "status": "RESO",
-    "summary": "EL API: AccessControlException -- Import Handler",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-01 21:32 ",
-    "modified": "2020-06-02 23:00 "
-  },
-  {
-    "id": "64195",
-    "status": "RESO",
-    "summary": "Tomcat NIO SSL Connector broken under Linux in Tomcat 9.0.31",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-03-04 12:37 ",
-    "modified": "2020-06-02 10:29 "
-  },
-  {
-    "id": "64544",
-    "status": "RESO",
-    "summary": "add built libs to the bnd classpath for introspection",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-22 19:10 ",
-    "modified": "2020-06-24 11:12 "
-  },
-  {
-    "id": "64221",
-    "status": "RESO",
-    "summary": "org.apache.tomcat.util.net.TestClientCertTls13 not skipped if TLS 1.3 is disabled",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-03-12 21:58 ",
-    "modified": "2020-03-13 11:15 "
-  },
-  {
-    "id": "64616",
-    "status": "RESO",
-    "summary": "Change ETag format to Nginx like",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-07-20 13:06 ",
-    "modified": "2020-08-12 15:22 "
+    "modified": "2020-04-08 19:31 ",
+    "age": {
+      "years": 0,
+      "months": 10,
+      "days": 14,
+      "hours": 12,
+      "minutes": 48
+    },
+    "relatedBugs": []
   },
   {
     "id": "64515",
@@ -132,7 +40,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-06-11 04:22 ",
-    "modified": "2020-06-11 18:42 "
+    "modified": "2020-06-11 18:42 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 9,
+      "hours": 18,
+      "minutes": 14
+    },
+    "relatedBugs": []
   },
   {
     "id": "64735",
@@ -141,7 +57,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-09-10 20:44 ",
-    "modified": "2020-09-30 17:05 "
+    "modified": "2020-09-30 17:05 ",
+    "age": {
+      "years": 0,
+      "months": 5,
+      "days": 10,
+      "hours": 1,
+      "minutes": 52
+    },
+    "relatedBugs": []
   },
   {
     "id": "64522",
@@ -150,7 +74,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-06-13 23:45 ",
-    "modified": "2020-06-16 15:16 "
+    "modified": "2020-06-16 15:16 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 6,
+      "hours": 22,
+      "minutes": 51
+    },
+    "relatedBugs": []
   },
   {
     "id": "64778",
@@ -159,7 +91,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-09-29 18:43 ",
-    "modified": "2020-09-30 17:08 "
+    "modified": "2020-09-30 17:08 ",
+    "age": {
+      "years": 0,
+      "months": 4,
+      "days": 22,
+      "hours": 3,
+      "minutes": 53
+    },
+    "relatedBugs": []
   },
   {
     "id": "64540",
@@ -168,7 +108,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-06-19 13:36 ",
-    "modified": "2020-07-21 14:20 "
+    "modified": "2020-07-21 14:20 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 1,
+      "hours": 9,
+      "minutes": 0
+    },
+    "relatedBugs": []
   },
   {
     "id": "64498",
@@ -177,7 +125,15 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-06-04 13:16 ",
-    "modified": "2020-06-09 12:42 "
+    "modified": "2020-06-09 12:42 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 16,
+      "hours": 9,
+      "minutes": 20
+    },
+    "relatedBugs": []
   },
   {
     "id": "64797",
@@ -186,7 +142,206 @@
     "importance": "normal",
     "dependsON": "",
     "reported": "2020-10-10 16:18 ",
-    "modified": "2020-10-29 04:06 "
+    "modified": "2020-10-29 04:06 ",
+    "age": {
+      "years": 0,
+      "months": 4,
+      "days": 11,
+      "hours": 6,
+      "minutes": 18
+    }
+  },
+  {
+    "id": "64201",
+    "status": "CLOS",
+    "summary": "Tomcat 10 Doesn't receive debug inside Netbeans 11.3",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-03-05 15:01 ",
+    "modified": "2020-03-05 15:18 ",
+    "age": {
+      "years": 0,
+      "months": 11,
+      "days": 16,
+      "hours": 6,
+      "minutes": 35
+    }
+  },
+  {
+    "id": "64548",
+    "status": "RESO",
+    "summary": "generate JPMS metadata",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-23 13:31 ",
+    "modified": "2020-07-11 02:44 ",
+    "age": {
+      "years": 0,
+      "months": 7,
+      "days": 28,
+      "hours": 9,
+      "minutes": 5
+    }
+  },
+  {
+    "id": "64514",
+    "status": "RESO",
+    "summary": "classes missing from bootstrap.jar",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-11 03:18 ",
+    "modified": "2020-06-15 18:40 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 9,
+      "hours": 19,
+      "minutes": 18
+    }
+  },
+  {
+    "id": "64521",
+    "status": "RESO",
+    "summary": "avoid moving i18n translations into classes dir since they are packaged into separate jars",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-13 22:46 ",
+    "modified": "2020-06-15 18:53 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 6,
+      "hours": 23,
+      "minutes": 50
+    }
+  },
+  {
+    "id": "65037",
+    "status": "RESO",
+    "summary": "Supports deploy Java EE web application to tomcat 10+",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-12-29 01:26 ",
+    "modified": "2020-12-29 02:39 ",
+    "age": {
+      "years": 0,
+      "months": 1,
+      "days": 20,
+      "hours": 20,
+      "minutes": 10
+    }
+  },
+  {
+    "id": "64774",
+    "status": "RESO",
+    "summary": "Configuration Reference pages have a wrong version number in their title",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-09-27 18:42 ",
+    "modified": "2020-09-29 21:23 ",
+    "age": {
+      "years": 0,
+      "months": 4,
+      "days": 24,
+      "hours": 3,
+      "minutes": 54
+    }
+  },
+  {
+    "id": "64532",
+    "status": "RESO",
+    "summary": "update to bnd 5.1.1",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-17 14:14 ",
+    "modified": "2020-06-22 11:36 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 3,
+      "hours": 8,
+      "minutes": 22
+    }
+  },
+  {
+    "id": "64488",
+    "status": "RESO",
+    "summary": "EL API: AccessControlException -- Import Handler",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-01 21:32 ",
+    "modified": "2020-06-02 23:00 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 19,
+      "hours": 1,
+      "minutes": 4
+    }
+  },
+  {
+    "id": "64195",
+    "status": "RESO",
+    "summary": "Tomcat NIO SSL Connector broken under Linux in Tomcat 9.0.31",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-03-04 12:37 ",
+    "modified": "2020-06-02 10:29 ",
+    "age": {
+      "years": 0,
+      "months": 11,
+      "days": 17,
+      "hours": 8,
+      "minutes": 59
+    }
+  },
+  {
+    "id": "64544",
+    "status": "RESO",
+    "summary": "add built libs to the bnd classpath for introspection",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-22 19:10 ",
+    "modified": "2020-06-24 11:12 ",
+    "age": {
+      "years": 0,
+      "months": 7,
+      "days": 29,
+      "hours": 3,
+      "minutes": 26
+    }
+  },
+  {
+    "id": "64221",
+    "status": "RESO",
+    "summary": "org.apache.tomcat.util.net.TestClientCertTls13 not skipped if TLS 1.3 is disabled",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-03-12 21:58 ",
+    "modified": "2020-03-13 11:15 ",
+    "age": {
+      "years": 0,
+      "months": 11,
+      "days": 8,
+      "hours": 23,
+      "minutes": 38
+    }
+  },
+  {
+    "id": "64616",
+    "status": "RESO",
+    "summary": "Change ETag format to Nginx like",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-07-20 13:06 ",
+    "modified": "2020-08-12 15:22 ",
+    "age": {
+      "years": 0,
+      "months": 7,
+      "days": 1,
+      "hours": 9,
+      "minutes": 30
+    }
   },
   {
     "id": "64442",
@@ -195,7 +350,14 @@
     "importance": "minor",
     "dependsON": "",
     "reported": "2020-05-14 18:34 ",
-    "modified": "2020-06-02 10:09 "
+    "modified": "2020-06-02 10:09 ",
+    "age": {
+      "years": 0,
+      "months": 9,
+      "days": 7,
+      "hours": 4,
+      "minutes": 2
+    }
   },
   {
     "id": "64513",
@@ -204,43 +366,14 @@
     "importance": "trivial",
     "dependsON": "",
     "reported": "2020-06-11 03:04 ",
-    "modified": "2020-06-11 11:53 "
-  },
-  {
-    "id": "64872",
-    "status": "RESO",
-    "summary": "Inefficient enum resolution in JSPs",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-11-04 19:48 ",
-    "modified": "2021-01-22 17:22 "
-  },
-  {
-    "id": "64431",
-    "status": "RESO",
-    "summary": "Enable response compression by default",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-05-13 14:59 ",
-    "modified": "2020-06-15 18:55 "
-  },
-  {
-    "id": "64784",
-    "status": "RESO",
-    "summary": "Add option to remove date from generated Java header comment",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-10-02 08:57 ",
-    "modified": "2020-10-09 13:20 "
-  },
-  {
-    "id": "64850",
-    "status": "RESO",
-    "summary": "Add support to tomcat for JEP380: Unix domain sockets",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-10-26 19:01 ",
-    "modified": "2021-01-15 21:49 "
+    "modified": "2020-06-11 11:53 ",
+    "age": {
+      "years": 0,
+      "months": 8,
+      "days": 9,
+      "hours": 19,
+      "minutes": 32
+    }
   },
   {
     "id": "64931",
@@ -249,7 +382,14 @@
     "importance": "enhancement",
     "dependsON": "",
     "reported": "2020-11-18 19:05 ",
-    "modified": "2020-11-18 21:04 "
+    "modified": "2020-11-18 21:04 ",
+    "age": {
+      "years": 0,
+      "months": 3,
+      "days": 2,
+      "hours": 2,
+      "minutes": 31
+    }
   },
   {
     "id": "64386",
@@ -258,6 +398,77 @@
     "importance": "enhancement",
     "dependsON": "",
     "reported": "2020-04-28 22:10 ",
-    "modified": "2020-04-29 09:19 "
+    "modified": "2020-04-29 09:19 ",
+    "age": {
+      "years": 0,
+      "months": 9,
+      "days": 23,
+      "hours": 0,
+      "minutes": 26
+    }
+  },
+  {
+    "id": "64872",
+    "status": "RESO",
+    "summary": "Inefficient enum resolution in JSPs",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-11-04 19:48 ",
+    "modified": "2021-01-22 17:22 ",
+    "age": {
+      "years": 0,
+      "months": 3,
+      "days": 16,
+      "hours": 1,
+      "minutes": 48
+    }
+  },
+  {
+    "id": "64431",
+    "status": "RESO",
+    "summary": "Enable response compression by default",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-05-13 14:59 ",
+    "modified": "2020-06-15 18:55 ",
+    "age": {
+      "years": 0,
+      "months": 9,
+      "days": 8,
+      "hours": 7,
+      "minutes": 37
+    }
+  },
+  {
+    "id": "64784",
+    "status": "RESO",
+    "summary": "Add option to remove date from generated Java header comment",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-10-02 08:57 ",
+    "modified": "2020-10-09 13:20 ",
+    "age": {
+      "years": 0,
+      "months": 4,
+      "days": 19,
+      "hours": 13,
+      "minutes": 39
+    }
+  },
+  {
+    "id": "64850",
+    "status": "RESO",
+    "summary": "Add support to tomcat for JEP380: Unix domain sockets",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-10-26 19:01 ",
+    "modified": "2021-01-15 21:49 ",
+    "age": {
+      "years": 0,
+      "months": 3,
+      "days": 25,
+      "hours": 2,
+      "minutes": 35
+    }
   }
 ]

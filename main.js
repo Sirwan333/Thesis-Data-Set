@@ -14,6 +14,7 @@ const arraySummary = []
 const arrayComponents = []
 const arrayAge = []
 const arrayRelatedBugs = []
+const arrayCCList = []
 
 async function startScraping () {
     return new Promise((resolve, reject) => {  
@@ -90,6 +91,10 @@ async function startScrapingURL () {
                             const modified = $(el).find('td').text().substring(0, 17)
                             arrayModified.push(modified)
                         } 
+                        if (i == 2) {
+                            const ccList = $(el).find('td').text().substring(0, 1)
+                            arrayCCList.push(ccList)
+                        } 
                     })
                 }  
             })
@@ -103,10 +108,12 @@ async function calculateAge() {
     console.log("Printing out ArrayIDs:")
     let i = 0
     arrayIDs.forEach(element => {
-        reported = arrayReported[i]
-        
-        let reportedDate = new Date(reported)
-        let ageDifMs = Date.now() - reportedDate.getTime()
+        let reportedTime = arrayReported[i]
+        let modifiedTime = arrayModified[i]
+
+        let reportedDate = new Date(reportedTime)
+        let modifiedDate = new Date(modifiedTime)
+        let ageDifMs = modifiedDate.getTime() - reportedDate.getTime()
         let ageDate = new Date(ageDifMs) // miliseconds from epoch
         let years = Math.abs(ageDate.getUTCFullYear() - 1970)
         let months = Math.abs(ageDate.getUTCMonth())
@@ -129,19 +136,27 @@ async function calculateAge() {
 
 async function getRelatedBugs() {
     return new Promise(async(resolve, reject) => {
-        const bugsSet = new Set()
+        
         arrayComponents.forEach(element => {
             console.log(element)
         })
 
         for await (const component of arrayComponents) {
+            const bugsSet = []
             await request(`https://bz.apache.org/bugzilla/buglist.cgi?component=${component}&product=Tomcat%2010&bug_status=__open__`, (err, response, html) => {
                 if (!err && response.statusCode === 200) {
                     const $ = cheerio.load(html)
 
-                    const bugs = $('.bz_buglist').children('tbody').children('tr').children('td.bz_id_column').children('a').html()
-                    $(bugs).each(function(i, elm) {
-                        console.log($(this)) // for testing do text() 
+                    const bugs = $('.bz_buglist').children('tbody').children('tr')
+                    $(bugs).each(function(i, el) {
+                        if (i == 1) {
+                            const bugList = $(el).find('a').first().text().replace(/\s\s+/g, '')
+                            bugsSet.push(bugList)
+                        }
+                        if(i==2) {
+                            const bugList = $(el).find('a').first().text().replace(/\s\s+/g, '')
+                            bugsSet.push(bugList)
+                        }
                     });
 
                     // console.log(`Component: ${component}    Bug: ${bug}`)
@@ -151,11 +166,9 @@ async function getRelatedBugs() {
 
                 }
             })
-
-            // let bugsArray = [...bugsSet];
-            // arrayRelatedBugs.push(bugsArray)
+            arrayRelatedBugs.push(bugsSet)
         }
-        
+       
         resolve()
     })
 }
@@ -177,6 +190,7 @@ async function writeToJson () {
                 age: arrayAge[i],
                 component: arrayComponents[i],
                 relatedBugs: arrayRelatedBugs[i],
+                ccList: arrayCCList[i]
             }
             myData.push(bug)
             i++

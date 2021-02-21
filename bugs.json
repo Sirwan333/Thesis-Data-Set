@@ -9,12 +9,17 @@
     "modified": "2020-07-30 08:26 ",
     "age": {
       "years": 0,
-      "months": 6,
-      "days": 22,
-      "hours": 16,
-      "minutes": 19
+      "months": 0,
+      "days": 0,
+      "hours": 2,
+      "minutes": 9
     },
-    "relatedBugs": []
+    "component": "Connectors",
+    "relatedBugs": [
+      "64353",
+      "64943"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64311",
@@ -26,226 +31,16 @@
     "modified": "2020-04-08 19:31 ",
     "age": {
       "years": 0,
-      "months": 10,
-      "days": 14,
-      "hours": 12,
-      "minutes": 48
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64515",
-    "status": "RESO",
-    "summary": "no need to filter bnd files (bnd passes ant properties in)",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-11 04:22 ",
-    "modified": "2020-06-11 18:42 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 9,
-      "hours": 18,
-      "minutes": 14
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64735",
-    "status": "RESO",
-    "summary": "ServletContext.addJspFile() always fails with SecurityManager",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-09-10 20:44 ",
-    "modified": "2020-09-30 17:05 ",
-    "age": {
-      "years": 0,
-      "months": 5,
-      "days": 10,
-      "hours": 1,
-      "minutes": 52
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64522",
-    "status": "RESO",
-    "summary": "package jars in effective dependency order",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-13 23:45 ",
-    "modified": "2020-06-16 15:16 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 6,
-      "hours": 22,
-      "minutes": 51
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64778",
-    "status": "RESO",
-    "summary": "org.apache.el.lang.ELSupport: methods removed",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-09-29 18:43 ",
-    "modified": "2020-09-30 17:08 ",
-    "age": {
-      "years": 0,
-      "months": 4,
-      "days": 22,
-      "hours": 3,
-      "minutes": 53
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64540",
-    "status": "RESO",
-    "summary": "switch from bndwrap task to bnd task",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-19 13:36 ",
-    "modified": "2020-07-21 14:20 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 1,
+      "months": 0,
+      "days": 2,
       "hours": 9,
-      "minutes": 0
+      "minutes": 43
     },
-    "relatedBugs": []
-  },
-  {
-    "id": "64498",
-    "status": "RESO",
-    "summary": "Incorrect OSGi Manifests",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-04 13:16 ",
-    "modified": "2020-06-09 12:42 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 16,
-      "hours": 9,
-      "minutes": 20
-    },
-    "relatedBugs": []
-  },
-  {
-    "id": "64797",
-    "status": "RESO",
-    "summary": "Align manager.xml template file in Host-Manager with context.xml of real Manager web application.",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-10-10 16:18 ",
-    "modified": "2020-10-29 04:06 ",
-    "age": {
-      "years": 0,
-      "months": 4,
-      "days": 11,
-      "hours": 6,
-      "minutes": 18
-    }
-  },
-  {
-    "id": "64201",
-    "status": "CLOS",
-    "summary": "Tomcat 10 Doesn't receive debug inside Netbeans 11.3",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-03-05 15:01 ",
-    "modified": "2020-03-05 15:18 ",
-    "age": {
-      "years": 0,
-      "months": 11,
-      "days": 16,
-      "hours": 6,
-      "minutes": 35
-    }
-  },
-  {
-    "id": "64548",
-    "status": "RESO",
-    "summary": "generate JPMS metadata",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-23 13:31 ",
-    "modified": "2020-07-11 02:44 ",
-    "age": {
-      "years": 0,
-      "months": 7,
-      "days": 28,
-      "hours": 9,
-      "minutes": 5
-    }
-  },
-  {
-    "id": "64514",
-    "status": "RESO",
-    "summary": "classes missing from bootstrap.jar",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-11 03:18 ",
-    "modified": "2020-06-15 18:40 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 9,
-      "hours": 19,
-      "minutes": 18
-    }
-  },
-  {
-    "id": "64521",
-    "status": "RESO",
-    "summary": "avoid moving i18n translations into classes dir since they are packaged into separate jars",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-06-13 22:46 ",
-    "modified": "2020-06-15 18:53 ",
-    "age": {
-      "years": 0,
-      "months": 8,
-      "days": 6,
-      "hours": 23,
-      "minutes": 50
-    }
-  },
-  {
-    "id": "65037",
-    "status": "RESO",
-    "summary": "Supports deploy Java EE web application to tomcat 10+",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-12-29 01:26 ",
-    "modified": "2020-12-29 02:39 ",
-    "age": {
-      "years": 0,
-      "months": 1,
-      "days": 20,
-      "hours": 20,
-      "minutes": 10
-    }
-  },
-  {
-    "id": "64774",
-    "status": "RESO",
-    "summary": "Configuration Reference pages have a wrong version number in their title",
-    "importance": "normal",
-    "dependsON": "",
-    "reported": "2020-09-27 18:42 ",
-    "modified": "2020-09-29 21:23 ",
-    "age": {
-      "years": 0,
-      "months": 4,
-      "days": 24,
-      "hours": 3,
-      "minutes": 54
-    }
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64532",
@@ -257,11 +52,17 @@
     "modified": "2020-06-22 11:36 ",
     "age": {
       "years": 0,
-      "months": 8,
-      "days": 3,
-      "hours": 8,
+      "months": 0,
+      "days": 4,
+      "hours": 21,
       "minutes": 22
-    }
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64488",
@@ -273,11 +74,14 @@
     "modified": "2020-06-02 23:00 ",
     "age": {
       "years": 0,
-      "months": 8,
-      "days": 19,
+      "months": 0,
+      "days": 1,
       "hours": 1,
-      "minutes": 4
-    }
+      "minutes": 28
+    },
+    "component": "EL",
+    "relatedBugs": [],
+    "ccList": "0"
   },
   {
     "id": "64195",
@@ -289,11 +93,16 @@
     "modified": "2020-06-02 10:29 ",
     "age": {
       "years": 0,
-      "months": 11,
-      "days": 17,
-      "hours": 8,
-      "minutes": 59
-    }
+      "months": 2,
+      "days": 30,
+      "hours": 20,
+      "minutes": 52
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "3"
   },
   {
     "id": "64544",
@@ -305,11 +114,17 @@
     "modified": "2020-06-24 11:12 ",
     "age": {
       "years": 0,
-      "months": 7,
-      "days": 29,
-      "hours": 3,
-      "minutes": 26
-    }
+      "months": 0,
+      "days": 1,
+      "hours": 16,
+      "minutes": 2
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64221",
@@ -321,11 +136,14 @@
     "modified": "2020-03-13 11:15 ",
     "age": {
       "years": 0,
-      "months": 11,
-      "days": 8,
-      "hours": 23,
-      "minutes": 38
-    }
+      "months": 0,
+      "days": 0,
+      "hours": 13,
+      "minutes": 17
+    },
+    "component": "Util",
+    "relatedBugs": [],
+    "ccList": "1"
   },
   {
     "id": "64616",
@@ -337,11 +155,291 @@
     "modified": "2020-08-12 15:22 ",
     "age": {
       "years": 0,
-      "months": 7,
+      "months": 0,
+      "days": 23,
+      "hours": 2,
+      "minutes": 16
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64515",
+    "status": "RESO",
+    "summary": "no need to filter bnd files (bnd passes ant properties in)",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-11 04:22 ",
+    "modified": "2020-06-11 18:42 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 14,
+      "minutes": 20
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64735",
+    "status": "RESO",
+    "summary": "ServletContext.addJspFile() always fails with SecurityManager",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-09-10 20:44 ",
+    "modified": "2020-09-30 17:05 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 19,
+      "hours": 20,
+      "minutes": 21
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64522",
+    "status": "RESO",
+    "summary": "package jars in effective dependency order",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-13 23:45 ",
+    "modified": "2020-06-16 15:16 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 2,
+      "hours": 15,
+      "minutes": 31
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64778",
+    "status": "RESO",
+    "summary": "org.apache.el.lang.ELSupport: methods removed",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-09-29 18:43 ",
+    "modified": "2020-09-30 17:08 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 22,
+      "minutes": 25
+    },
+    "component": "EL",
+    "relatedBugs": [],
+    "ccList": "0"
+  },
+  {
+    "id": "64540",
+    "status": "RESO",
+    "summary": "switch from bndwrap task to bnd task",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-19 13:36 ",
+    "modified": "2020-07-21 14:20 ",
+    "age": {
+      "years": 0,
+      "months": 1,
       "days": 1,
-      "hours": 9,
-      "minutes": 30
-    }
+      "hours": 0,
+      "minutes": 44
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64498",
+    "status": "RESO",
+    "summary": "Incorrect OSGi Manifests",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-04 13:16 ",
+    "modified": "2020-06-09 12:42 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 4,
+      "hours": 23,
+      "minutes": 26
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "2"
+  },
+  {
+    "id": "64797",
+    "status": "RESO",
+    "summary": "Align manager.xml template file in Host-Manager with context.xml of real Manager web application.",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-10-10 16:18 ",
+    "modified": "2020-10-29 04:06 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 18,
+      "hours": 12,
+      "minutes": 48
+    },
+    "component": "Manager",
+    "relatedBugs": [],
+    "ccList": "0"
+  },
+  {
+    "id": "64201",
+    "status": "CLOS",
+    "summary": "Tomcat 10 Doesn't receive debug inside Netbeans 11.3",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-03-05 15:01 ",
+    "modified": "2020-03-05 15:18 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 0,
+      "minutes": 17
+    },
+    "component": "Connectors",
+    "relatedBugs": [
+      "64353",
+      "64943"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64548",
+    "status": "RESO",
+    "summary": "generate JPMS metadata",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-23 13:31 ",
+    "modified": "2020-07-11 02:44 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 17,
+      "hours": 13,
+      "minutes": 13
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64514",
+    "status": "RESO",
+    "summary": "classes missing from bootstrap.jar",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-11 03:18 ",
+    "modified": "2020-06-15 18:40 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 4,
+      "hours": 15,
+      "minutes": 22
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64521",
+    "status": "RESO",
+    "summary": "avoid moving i18n translations into classes dir since they are packaged into separate jars",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-06-13 22:46 ",
+    "modified": "2020-06-15 18:53 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 1,
+      "hours": 20,
+      "minutes": 7
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "65037",
+    "status": "RESO",
+    "summary": "Supports deploy Java EE web application to tomcat 10+",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-12-29 01:26 ",
+    "modified": "2020-12-29 02:39 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 1,
+      "minutes": 13
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64774",
+    "status": "RESO",
+    "summary": "Configuration Reference pages have a wrong version number in their title",
+    "importance": "normal",
+    "dependsON": "",
+    "reported": "2020-09-27 18:42 ",
+    "modified": "2020-09-29 21:23 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 2,
+      "hours": 2,
+      "minutes": 41
+    },
+    "component": "Documentation",
+    "relatedBugs": [],
+    "ccList": "0"
   },
   {
     "id": "64442",
@@ -353,11 +451,16 @@
     "modified": "2020-06-02 10:09 ",
     "age": {
       "years": 0,
-      "months": 9,
-      "days": 7,
-      "hours": 4,
-      "minutes": 2
-    }
+      "months": 0,
+      "days": 18,
+      "hours": 15,
+      "minutes": 35
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64513",
@@ -369,75 +472,17 @@
     "modified": "2020-06-11 11:53 ",
     "age": {
       "years": 0,
-      "months": 8,
-      "days": 9,
-      "hours": 19,
-      "minutes": 32
-    }
-  },
-  {
-    "id": "64931",
-    "status": "RESO",
-    "summary": "Implement validation of changelog.xml file at build time",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-11-18 19:05 ",
-    "modified": "2020-11-18 21:04 ",
-    "age": {
-      "years": 0,
-      "months": 3,
-      "days": 2,
-      "hours": 2,
-      "minutes": 31
-    }
-  },
-  {
-    "id": "64386",
-    "status": "RESO",
-    "summary": "WebdavServlet does not send \"getlastmodified\" property for resource collections",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-04-28 22:10 ",
-    "modified": "2020-04-29 09:19 ",
-    "age": {
-      "years": 0,
-      "months": 9,
-      "days": 23,
-      "hours": 0,
-      "minutes": 26
-    }
-  },
-  {
-    "id": "64872",
-    "status": "RESO",
-    "summary": "Inefficient enum resolution in JSPs",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-11-04 19:48 ",
-    "modified": "2021-01-22 17:22 ",
-    "age": {
-      "years": 0,
-      "months": 3,
-      "days": 16,
-      "hours": 1,
-      "minutes": 48
-    }
-  },
-  {
-    "id": "64431",
-    "status": "RESO",
-    "summary": "Enable response compression by default",
-    "importance": "enhancement",
-    "dependsON": "",
-    "reported": "2020-05-13 14:59 ",
-    "modified": "2020-06-15 18:55 ",
-    "age": {
-      "years": 0,
-      "months": 9,
-      "days": 8,
-      "hours": 7,
-      "minutes": 37
-    }
+      "months": 0,
+      "days": 0,
+      "hours": 8,
+      "minutes": 49
+    },
+    "component": "Packaging",
+    "relatedBugs": [
+      "64549",
+      "64550"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64784",
@@ -449,11 +494,16 @@
     "modified": "2020-10-09 13:20 ",
     "age": {
       "years": 0,
-      "months": 4,
-      "days": 19,
-      "hours": 13,
-      "minutes": 39
-    }
+      "months": 0,
+      "days": 7,
+      "hours": 4,
+      "minutes": 23
+    },
+    "component": "Jasper",
+    "relatedBugs": [
+      "65124"
+    ],
+    "ccList": "0"
   },
   {
     "id": "64850",
@@ -465,10 +515,99 @@
     "modified": "2021-01-15 21:49 ",
     "age": {
       "years": 0,
-      "months": 3,
-      "days": 25,
+      "months": 2,
+      "days": 22,
       "hours": 2,
-      "minutes": 35
-    }
+      "minutes": 48
+    },
+    "component": "Connectors",
+    "relatedBugs": [
+      "64353",
+      "64943"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64931",
+    "status": "RESO",
+    "summary": "Implement validation of changelog.xml file at build time",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-11-18 19:05 ",
+    "modified": "2020-11-18 21:04 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 1,
+      "minutes": 59
+    },
+    "component": "Documentation",
+    "relatedBugs": [],
+    "ccList": "0"
+  },
+  {
+    "id": "64386",
+    "status": "RESO",
+    "summary": "WebdavServlet does not send \"getlastmodified\" property for resource collections",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-04-28 22:10 ",
+    "modified": "2020-04-29 09:19 ",
+    "age": {
+      "years": 0,
+      "months": 0,
+      "days": 0,
+      "hours": 11,
+      "minutes": 9
+    },
+    "component": "Catalina",
+    "relatedBugs": [
+      "64858"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64872",
+    "status": "RESO",
+    "summary": "Inefficient enum resolution in JSPs",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-11-04 19:48 ",
+    "modified": "2021-01-22 17:22 ",
+    "age": {
+      "years": 0,
+      "months": 2,
+      "days": 19,
+      "hours": 21,
+      "minutes": 34
+    },
+    "component": "Jasper",
+    "relatedBugs": [
+      "65124"
+    ],
+    "ccList": "0"
+  },
+  {
+    "id": "64431",
+    "status": "RESO",
+    "summary": "Enable response compression by default",
+    "importance": "enhancement",
+    "dependsON": "",
+    "reported": "2020-05-13 14:59 ",
+    "modified": "2020-06-15 18:55 ",
+    "age": {
+      "years": 0,
+      "months": 1,
+      "days": 2,
+      "hours": 3,
+      "minutes": 56
+    },
+    "component": "Connectors",
+    "relatedBugs": [
+      "64353",
+      "64943"
+    ],
+    "ccList": "1"
   }
 ]
